@@ -1,0 +1,129 @@
+# -----------------------------------------------------------------------------
+# Name: # Monokai Vibrant Mika
+# Author: Mika
+# -----------------------------------------------------------------------------
+
+# Monokai Vibrant Mika
+foreground: &foreground "#F8F8F0"
+background: &background "#16171D"
+black: &black "#16171D"
+blue: &blue "#00A0E4"
+green: &green "#81F900"
+grey: &grey "#5C6370"
+orange: &orange "#E5A422"
+purple: &purple "#E373CE"
+red: &red "#FF3F4F"
+yellow: &yellow "#FFD945"
+yellow_bright: &yellow_bright "#E5A422"
+active_green: &active_green "#81F900"
+active_red: &active_red "#FF3F4F"
+active_cyan: &active_cyan "#19D1E5"
+dark_gray: &dark_gray "#3E4451"
+
+k9s:
+  body:
+    fgColor: *foreground
+    bgColor: *background
+    logoColor: *orange
+
+  prompt:
+    fgColor: *foreground
+    bgColor: *background
+    suggestColor: *grey
+
+  info:
+    fgColor: *foreground
+    sectionColor: *green
+
+  help:
+    fgColor: *foreground
+    bgColor: *background
+    keyColor: *orange
+    numKeyColor: *purple
+    sectionColor: *blue
+
+  dialog:
+    fgColor: *foreground
+    bgColor: *background
+    buttonFgColor: *foreground
+    buttonBgColor: *green
+    buttonFocusFgColor: *black
+    buttonFocusBgColor: *yellow
+    labelFgColor: *yellow
+    fieldFgColor: *foreground
+
+  frame:
+    border:
+      fgColor: *foreground
+      focusColor: *yellow
+    menu:
+      fgColor: *foreground
+      keyColor: *blue
+      numKeyColor: *purple
+    crumbs:
+      fgColor: *green
+      bgColor: *background
+      activeColor: *dark_gray
+    status:
+      newColor: *foreground
+      modifyColor: *yellow
+      addColor: *green
+      pendingColor: *yellow
+      errorColor: *red
+      highlightColor: *green
+      killColor: *red
+      completedColor: *blue
+    title:
+      fgColor: *green
+      bgColor: *background
+      highlightColor: *red
+      counterColor: *purple
+      filterColor: *blue
+
+  views:
+    charts:
+      bgColor: *background
+      defaultDialColors:
+        - *green
+        - *yellow
+      defaultChartColors:
+        - *green
+        - *yellow
+
+    table:
+      fgColor: *foreground
+      bgColor: *background
+      cursorFgColor: *black
+      cursorBgColor: *yellow
+      markColor: *green
+      header:
+        fgColor: *green
+        bgColor: *dark_gray
+        sorterColor: *purple
+
+    xray:
+      fgColor: *foreground
+      bgColor: *background
+      cursorColor: *yellow
+      graphicColor: *green
+      showIcons: false
+
+    yaml:
+      keyColor: *active_red
+      colonColor: *foreground
+      valueColor: *yellow
+
+    logs:
+      fgColor: *foreground
+      bgColor: *background
+      indicator:
+        fgColor: *green
+        bgColor: *background
+        toggleOnColor: *yellow
+        toggleOffColor: *foreground
+
+    help:
+      fgColor: *foreground
+      bgColor: *background
+      indicator:
+        fgColor: *green

@@ -1,0 +1,23 @@
+{
+    "background": "#16171D",
+    "black": "#16171D",
+    "blue": "#00A0E4",
+    "brightBlack": "#5C6370",
+    "brightBlue": "#528BFF",
+    "brightCyan": "#19D1E5",
+    "brightGreen": "#81F900",
+    "brightPurple": "#E542FF",
+    "brightRed": "#FF3F4F",
+    "brightWhite": "#F6F6F6",
+    "brightYellow": "#FFD945",
+    "cursorColor": "#F8F8F0",
+    "cyan": "#6AEBF7",
+    "foreground": "#F8F8F0",
+    "green": "#6FD80D",
+    "name": "Monokai Vibrant Mika",
+    "purple": "#E373CE",
+    "red": "#FF3F4F",
+    "selectionBackground": "#3E4451",
+    "white": "#F8F8F2",
+    "yellow": "#E5A422"
+}
