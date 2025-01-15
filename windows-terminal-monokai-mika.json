@@ -20,4 +20,27 @@
     "selectionBackground": "#3E4451",
     "white": "#F8F8F2",
     "yellow": "#E5A422"
-}
+},
+{
+    "background": "#272822",
+    "black": "#272822",
+    "blue": "#00D9D9",
+    "brightBlack": "#555555",
+    "brightBlue": "#AE81FF",
+    "brightCyan": "#66D9EF",
+    "brightGreen": "#A6E22E",
+    "brightPurple": "#D1CA89",
+    "brightRed": "#F92672",
+    "brightWhite": "#FFFFFF",
+    "brightYellow": "#E6DB74",
+    "cursorColor": "#F8F8F0",
+    "cyan": "#66D9EF",
+    "foreground": "#F8F8F2",
+    "green": "#A6E22E",
+    "name": "Monokai Vibrant Mika 2",
+    "purple": "#AE81FF",
+    "red": "#F92672",
+    "selectionBackground": "#3E4451",
+    "white": "#F8F8F2",
+    "yellow": "#E6DB74"
+},
